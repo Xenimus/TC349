@@ -1,0 +1,22 @@
+
+
+
+.user-info  {
+  background: #d0c8d4;
+  padding: 0;
+  margin: 0;
+  height: 200px;
+
+
+}
+
+.user-info p  {
+  background: #d0c8d4;
+  padding: 0;
+  margin: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 20px;
+  text-align: center;
+  @include single-text-shadow;
+}

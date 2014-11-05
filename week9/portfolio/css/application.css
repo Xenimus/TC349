@@ -1,0 +1,85 @@
+/* line 1, ../sass/components/_body.scss */
+body {
+  background: #7f1780;
+}
+
+/* line 5, ../sass/components/_body.scss */
+.wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* line 2, ../sass/components/_masthead.scss */
+.masthead {
+  background: #bd92cf;
+  padding: 0;
+  margin: 0;
+  height: 200px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 12, ../sass/components/_masthead.scss */
+.masthead p {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+  text-align: center;
+  text-shadow: 0px 0px 1px #aaaaaa;
+}
+
+/* line 1, ../sass/components/_mediagrid.scss */
+.media-grid {
+  list-style-type: none;
+  background: #846f8d;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/components/_mediagrid.scss */
+.media-grid li {
+  float: left;
+  height: 200px;
+  width: 20%;
+}
+
+/* line 20, ../sass/components/_mediagrid.scss */
+.media-grid.media-grid-sm li {
+  width: 20%;
+  height: 200px;
+}
+
+/* line 1, ../sass/components/_herounit.scss */
+.hero-unit {
+  background: #593c65;
+  padding: 0;
+  margin: 0;
+  height: 600px;
+}
+
+/* line 4, ../sass/components/_userinfo.scss */
+.user-info {
+  background: #d0c8d4;
+  padding: 0;
+  margin: 0;
+  height: 200px;
+}
+
+/* line 13, ../sass/components/_userinfo.scss */
+.user-info p {
+  background: #d0c8d4;
+  padding: 0;
+  margin: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: 0px 0px 1px #aaaaaa;
+}
