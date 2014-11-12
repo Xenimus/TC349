@@ -1,0 +1,227 @@
+/* line 1, ../sass/components/_body.scss */
+body {
+  background: #70B8FF;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #70b8ff), color-stop(100%, #c6e3ff));
+  background-image: -webkit-linear-gradient(#70b8ff, #c6e3ff);
+  background-image: -moz-linear-gradient(#70b8ff, #c6e3ff);
+  background-image: -o-linear-gradient(#70b8ff, #c6e3ff);
+  background-image: linear-gradient(#70b8ff, #c6e3ff);
+}
+
+/* line 6, ../sass/components/_body.scss */
+.wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* line 2, ../sass/components/_masthead.scss */
+.masthead {
+  background: #A1A1A1;
+  padding: 0;
+  margin: 0;
+  height: 170px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 12, ../sass/components/_masthead.scss */
+.masthead p {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Copperplate;
+  text-shadow: 0px 0px 1px #aaaaaa;
+}
+
+/* line 23, ../sass/components/_masthead.scss */
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 20px;
+}
+/* line 32, ../sass/components/_masthead.scss */
+.navigation li {
+  width: 234px;
+  height: 30px;
+  float: left;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  text-shadow: 0px 0px 1px #aaaaaa;
+  padding-top: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-family: Tahoma;
+  border-style: solid;
+}
+
+/* line 51, ../sass/components/_masthead.scss */
+.navigation li:hover {
+  background-color: #4D94FF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  transform: scale(1.02);
+}
+
+/* line 59, ../sass/components/_masthead.scss */
+.logo {
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  width: 40px;
+  background-color: #8DC6FF;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-shadow: 0px 0px 1px #aaaaaa;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+/* line 76, ../sass/components/_masthead.scss */
+.logo p {
+  padding: 0;
+  margin: 0;
+  font-family: Cursive;
+  height: 40px;
+  font-size: 30px;
+}
+/* line 83, ../sass/components/_masthead.scss */
+.logo :hover {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  /* line 97, ../sass/components/_masthead.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 98, ../sass/components/_masthead.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  /* line 102, ../sass/components/_masthead.scss */
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 103, ../sass/components/_masthead.scss */
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+/* line 1, ../sass/components/_mediagrid.scss */
+.media-grid {
+  list-style-type: none;
+  background: #846f8d;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/components/_mediagrid.scss */
+.media-grid li {
+  float: left;
+  height: 200px;
+  width: 20%;
+}
+/* line 14, ../sass/components/_mediagrid.scss */
+.media-grid li :hover {
+  transition: all 1s 0s ease;
+  transform: scale(2.5);
+}
+
+/* line 22, ../sass/components/_mediagrid.scss */
+.media-grid li:nth-child(even) {
+  background-color: #A1A1A1;
+}
+
+/* line 26, ../sass/components/_mediagrid.scss */
+.media-grid.media-grid-sm li {
+  width: 20%;
+  height: 200px;
+}
+
+/* line 1, ../sass/components/_herounit.scss */
+.hero-unit {
+  background: #C7C7C7;
+  padding: 0;
+  margin: 0;
+  height: 600px;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+/* line 7, ../sass/components/_herounit.scss */
+.hero-unit :hover {
+  transition: all 1s 0s ease;
+  transform: scale(3);
+}
+
+/* line 4, ../sass/components/_userinfo.scss */
+.user-info {
+  background: #A1A1A1;
+  padding: 0;
+  margin: 0;
+  height: 250px;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+
+/* line 14, ../sass/components/_userinfo.scss */
+.picture {
+  float: left;
+  padding: 10px;
+  margin: 0 5px 0 0;
+}
+
+/* line 19, ../sass/components/_userinfo.scss */
+.user-info p {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: 0px 0px 1px #aaaaaa;
+  font-family: Georgia;
+  float: right;
+  line-height: 2.5;
+  font-size: 1.2em;
+}

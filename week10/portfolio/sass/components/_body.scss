@@ -1,0 +1,9 @@
+body {
+  background: #70B8FF;
+  @include background-image(linear-gradient(#70B8FF, #C6E3FF));
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 960px;
+}

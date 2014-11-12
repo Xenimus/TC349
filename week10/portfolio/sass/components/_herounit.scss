@@ -1,0 +1,11 @@
+.hero-unit  {
+  background: #C7C7C7;
+  padding: 0;
+  margin: 0;
+  height: 600px;
+  @include box-shadow;
+  & :hover{
+    transition: all 1s 0s ease;
+    transform: scale(3);
+  }
+}
